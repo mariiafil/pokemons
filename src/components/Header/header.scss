@@ -1,0 +1,15 @@
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: #eee;
+  border-bottom: 5px solid #b6b5b5;
+  margin-bottom: 100px;
+
+  &__title {
+    margin: 0;
+    font-size: 62px;
+    text-align: center;
+    line-height: 200px;
+    color: #383838;
+  }
+}

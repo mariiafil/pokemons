@@ -1,0 +1,97 @@
+.details {
+  
+  margin-right: 40px;
+  margin-top: 100px;
+
+  &__card {
+    width: 400px;    
+    background-color: #858383;
+    border: 5px solid #4d4c4c;
+    border-radius: 5px;
+    padding: 20px;
+    height: 950px; 
+  }
+
+  &__choose {
+    color: #858383;
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+  }
+
+  &__img {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__title {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    background-color: #c0bfbf;
+    margin: 0;
+    padding: 20px;
+  }
+
+  &__item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    border-bottom: 1px solid #4d4c4c; 
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__option {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__option-list {
+    list-style: none;
+    text-align: right;
+    width: 100px;
+    margin: 0;
+    padding: 10px;    
+    border-left: 1px solid #4d4c4c;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .details {
+    margin-bottom: 50px;
+    margin-top: 0;
+
+    &__card {
+      width: 250px;
+      height: 670px;
+    }
+
+    &__img {
+      width: 150px;
+    }
+
+    &__title {
+      font-size: 14px;
+    };
+
+    &__option {
+      font-size: 12px;
+    }
+
+    &__option-list {
+      font-size: 12px;
+      width: 50px;
+    }
+  }
+}
