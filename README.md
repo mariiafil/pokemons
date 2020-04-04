@@ -8,6 +8,6 @@ On click of 'Load More' another chunk of the list is being loaded and displayed 
 
 To run app you need:
 
-1. Clone project from Github: https://github.com/mariiafil/pokemons.git
+1. Clone project from Github: git clone https://github.com/mariiafil/pokemons.git
 2. Install all dependancies: npm i
 3. Run project: npm start
